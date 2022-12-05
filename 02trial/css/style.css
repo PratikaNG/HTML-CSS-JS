@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(90deg, rgb(224, 224, 46), rgb(0, 94, 0));
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+}
+
+.nav-links {
+  /* height: 200px;
+  width: 200px; */
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+.nav-item {
+  text-decoration: none;
+}
+
+.img-one {
+  height: 450px;
+  width: 500px;
+}
+
+.img-two {
+  height: 500px;
+  width: 500px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: cover;
+}
+
+.flex {
+  flex: 1;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: cover;
+  align-items: center;
+}
+
+.form-section {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  padding: auto;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  border-radius: 5px;
+}
+
+.btn-submit {
+  width: 350px;
+  background-color: rgb(168, 241, 50);
+  margin-top: 5px;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-Twitter {
+  width: 350px;
+  background-color: rgb(50, 235, 241);
+  margin-top: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.btn-Facebook {
+  width: 350px;
+  background-color: rgb(50, 126, 241);
+  margin-top: 5px;
+  color: white;
+  border-radius: 5px;
+}
+.divider {
+  text-align: center;
+  color: black;
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: #1d1d1d;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: orange;
+  }
+  imag-two {
+    display: none;
+  }
+}

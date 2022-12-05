@@ -1,0 +1,17 @@
+body {
+  background-color: #1d1d1d;
+}
+
+header {
+  height: 90vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(236, 42, 133, 0.562),
+      rgba(96, 36, 216, 0.651)
+    ),
+    url(https://images.pexels.com/photos/1843752/pexels-photo-1843752.jpeg?auto=compress&cs=tinysrgb&w=600);
+  /* background-color: #02042c; */
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(100% 0, 100% 46%, 82% 57%, 0 43%, 0 0);
+}
